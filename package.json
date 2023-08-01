@@ -1,16 +1,16 @@
 {
   "name": "whatsapp-clone-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Whatsapp clone",
   "main": "index.js",
   "scripts": {
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Rushabha Jain",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "socket.io": "^4.7.1"
+    "ws": "^8.13.0"
   }
 }
